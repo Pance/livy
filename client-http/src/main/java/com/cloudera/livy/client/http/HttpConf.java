@@ -25,7 +25,7 @@ import com.cloudera.livy.client.common.ClientConf;
 class HttpConf extends ClientConf<HttpConf> {
 
   static enum Entry implements ConfEntry {
-    CONNETION_TIMEOUT("connection.timeout", "10s"),
+    CONNETION_TIMEOUT("connection.timeout", "30s"),
     CONNECTION_IDLE_TIMEOUT("connection.idle.timeout", "10m"),
     SOCKET_TIMEOUT("connection.socket.timeout", "5m"),
 
